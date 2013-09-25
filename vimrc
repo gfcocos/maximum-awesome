@@ -100,6 +100,15 @@ else
   let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 endif
 
+
+" let Vundle manage Vundle
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+" required!
+
+" bundle install
+Bundle 'git@github.com:vim-scripts/bash-support.vim.git'
+
 " Go crazy!
 if filereadable(expand("~/.vimrc.local"))
   " In your .vimrc.local, you might like:
