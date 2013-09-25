@@ -3,6 +3,7 @@ filetype on " without this vim emits a zero exit status, later, because of :ft o
 filetype off
 call pathogen#infect()
 filetype plugin indent on
+filetype plugin on
 
 " don't bother with vi compatibility
 set nocompatible
@@ -107,7 +108,9 @@ call vundle#rc()
 " required!
 
 " bundle install
-Bundle 'git@github.com:vim-scripts/bash-support.vim.git'
+" Bundle 'git@github.com:vim-scripts/bash-support.vim.git'
+Bundle 'git@github.com:plasticboy/vim-markdown.git'
+
 
 " Go crazy!
 if filereadable(expand("~/.vimrc.local"))
