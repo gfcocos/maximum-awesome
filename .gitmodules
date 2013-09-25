@@ -103,3 +103,9 @@
 [submodule "vim/bundle/ctrlp.vim"]
 	path = vim/bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
+[submodule "vim/bundle/vundle"]
+	path = vim/bundle/vundle
+	url = https://github.com/gmarik/vundle.git
+[submodule "vim/bundle/bash-support.vim"]
+	path = vim/bundle/bash-support.vim
+	url = git@github.com:vim-scripts/bash-support.vim.git
