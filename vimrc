@@ -59,6 +59,7 @@ nmap <leader><space> :call whitespace#strip_trailing()<CR>
 nmap <leader>g :GitGutterToggle<CR>
 nmap <leader>c <Plug>Kwbd
 map <silent> <leader>V :source ~/.vimrc<CR>:filetype detect<CR>:exe ":echo 'vimrc reloaded'"<CR>
+map <leader>w :w<CR>
 
 " plugin settings
 let g:ctrlp_match_window = 'order:ttb,max:20'
